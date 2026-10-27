@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dice Palace — 300% do €10 000 + 300 FS</title>
+  <meta name="description" content="Dice Palace: pakiet powitalny dla Ciebie. 300% do €10 000 i 300 spinów na pierwsze cztery wpłaty." />
+  <meta name="theme-color" content="#1a0b14" />
+  <link rel="icon" href="assets/logo-animated.webp" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="scene" aria-hidden="true">
+    <div class="aurora"></div>
+    <div class="frost-veil"></div>
+    <canvas id="bg-anim" class="bg-anim"></canvas>
+    <div class="hearts">
+      <span class="heart h1">♥</span>
+      <span class="heart h2">♥</span>
+      <span class="heart h3">♥</span>
+      <span class="heart h4">♥</span>
+      <span class="heart h5">♥</span>
+      <span class="heart h6">♥</span>
+      <span class="heart h7">♥</span>
+      <span class="heart h8">♥</span>
+    </div>
+  </div>
+
+  <header class="topbar">
+    <a class="logo-link" href="#top" aria-label="Dice Palace — strona główna">
+      <img src="assets/logo-animated.webp" alt="Dice Palace" class="logo" width="230" height="90" />
+    </a>
+    <nav class="topnav" aria-label="Nawigacja">
+      <a class="btn btn--ghost btn--sm" href="https://dcpc.kronvax.com/?mid=393753_2265517" target="_blank" rel="noopener noreferrer">Wróć do środka</a>
+      <a class="btn btn--primary btn--sm" href="https://dcpc.kronvax.com/?mid=393753_2265517" target="_blank" rel="noopener noreferrer">Odbierz dla siebie</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-stage">
+        <div class="hero-visual">
+          <img
+            src="assets/banner.png"
+            alt="Dice Palace — banner"
+            class="banner-img"
+            width="1600"
+            height="640"
+          />
+          <div class="banner-shade" aria-hidden="true"></div>
+        </div>
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <img src="assets/logo-animated.webp" alt="Dice Palace" class="brand-logo" width="420" height="140" />
+            <p class="brand-sub">dla Ciebie · blask · wygrana</p>
+            <h1 id="hero-title" class="hero-offer">
+              <span class="offer-kicker">Twój pakiet powitalny</span>
+              <span class="offer-row">
+                <span class="offer-percent">300%</span>
+              </span>
+              <span class="offer-plus">do €10 000 + 300 spinów</span>
+            </h1>
+            <p class="hero-support">
+              Cztery wpłaty i cały ten blask jest Twój. Wchodzisz i bierzesz pakiet od razu.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn--primary btn--lg" href="https://dcpc.kronvax.com/?mid=393753_2265517" target="_blank" rel="noopener noreferrer">
+                Odbierz dla siebie
+              </a>
+              <a class="btn btn--outline btn--lg" href="#bonus-irion">
+                Zobacz pakiet
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section offer" id="bonus-irion" aria-labelledby="offer-title">
+      <div class="section-inner">
+        <h2 id="offer-title">Pakiet dla Ciebie</h2>
+        <p class="section-lead">300% do €10 000 i 300 spinów na cztery pierwsze wpłaty. Spokojnie, krok po kroku, wszystko Twoje.</p>
+
+        <ul class="perk-list">
+          <li class="perk-card">
+            <span class="perk-value">300%</span>
+            <span class="perk-label">Twój bonus</span>
+          </li>
+          <li class="perk-card">
+            <span class="perk-value">€10 000</span>
+            <span class="perk-label">Aż tyle możesz wziąć</span>
+          </li>
+          <li class="perk-card">
+            <span class="perk-value">300</span>
+            <span class="perk-label">Spinów na start</span>
+          </li>
+          <li class="perk-card">
+            <span class="perk-value">4</span>
+            <span class="perk-label">Wpłaty, które dokładają</span>
+          </li>
+        </ul>
+
+        <div class="deposit-grid" aria-label="Rozkład pakietu powitalnego">
+          <article class="deposit-card">
+            <span class="deposit-n">01</span>
+            <strong>100% do €2 500</strong>
+            <span>+ 100 FS</span>
+          </article>
+          <article class="deposit-card">
+            <span class="deposit-n">02</span>
+            <strong>100% do €2 500</strong>
+            <span>+ 50 FS</span>
+          </article>
+          <article class="deposit-card">
+            <span class="deposit-n">03</span>
+            <strong>50% do €2 500</strong>
+            <span>+ 100 FS</span>
+          </article>
+          <article class="deposit-card">
+            <span class="deposit-n">04</span>
+            <strong>50% do €2 500</strong>
+            <span>+ 50 FS</span>
+          </article>
+        </div>
+
+        <div class="section-cta">
+          <a class="btn btn--primary btn--lg" href="https://dcpc.kronvax.com/?mid=393753_2265517" target="_blank" rel="noopener noreferrer">
+            Chcę ten pakiet
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section steps" id="jak-to-dziala" aria-labelledby="steps-title">
+      <div class="section-inner">
+        <h2 id="steps-title">Jak to wziąć</h2>
+        <p class="section-lead">Cztery krótkie kroki i jesteś w środku.</p>
+
+        <ol class="step-list">
+          <li>
+            <span class="step-num">01</span>
+            <div>
+              <h3>Wejdź do pałacu</h3>
+              <p>Kliknij i otwórz Dice Palace — miejsce już na Ciebie czeka.</p>
+            </div>
+          </li>
+          <li>
+            <span class="step-num">02</span>
+            <div>
+              <h3>Załóż swoje konto</h3>
+              <p>Chwila i masz konto tylko dla siebie.</p>
+            </div>
+          </li>
+          <li>
+            <span class="step-num">03</span>
+            <div>
+              <h3>Pierwsza wpłata</h3>
+              <p>100% do €2 500 i 100 spinów otwiera się od razu.</p>
+            </div>
+          </li>
+          <li>
+            <span class="step-num">04</span>
+            <div>
+              <h3>Zostań na dłużej</h3>
+              <p>Kolejne trzy wpłaty dopinają całość — 300% do €10 000 i 300 spinów.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section final" aria-labelledby="final-title">
+      <div class="section-inner final-inner">
+        <div class="final-card">
+          <h2 id="final-title">Gotowa?</h2>
+          <p class="section-lead">
+            300% do €10 000 i 300 spinów na pierwsze cztery wpłaty. Ten wieczór może być Twój.
+          </p>
+          <a class="btn btn--primary btn--lg" href="https://dcpc.kronvax.com/?mid=393753_2265517" target="_blank" rel="noopener noreferrer">
+            Wchodzę
+          </a>
+          <p class="final-login">
+            Masz już konto?
+            <a href="https://dcpc.kronvax.com/?mid=393753_2265517" target="_blank" rel="noopener noreferrer">Wróć do środka</a>
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="age-badge" aria-label="Tylko dla osób pełnoletnich">18+</div>
+    <p class="legal">
+      Hazard może uzależniać. Graj odpowiedzialnie. Oferta wyłącznie dla osób pełnoletnich (18+).
+      Warunki bonusów dostępne u operatora. To strona partnerska Dice Palace.
+    </p>
+    <p class="copy">2026 © Dice Palace — All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
